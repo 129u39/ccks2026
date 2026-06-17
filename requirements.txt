@@ -1,0 +1,8 @@
+openai
+pandas
+numpy
+rank-bm25
+networkx
+tqdm
+pydantic
+rapidfuzz

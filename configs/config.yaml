@@ -1,0 +1,29 @@
+# CCKS2026 竞赛配置
+data:
+  path: data/contest_data.json
+
+output:
+  path: outputs/submit.jsonl
+
+model:
+  provider: openai      # openai | qwen | deepseek | vllm
+  model_name: qwen-max
+  api_key: ${API_KEY}
+  base_url: ""
+  temperature: 0.1
+  max_tokens: 512
+
+retrieval:
+  bm25_topk: 5
+
+kg:
+  max_hops: 3
+
+table:
+  fallback_to_llm: true
+
+self_consistency:
+  n_rounds: 3
+
+logging:
+  dir: outputs/logs

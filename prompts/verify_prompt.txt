@@ -1,0 +1,14 @@
+# Answer Verification Prompt
+Verify if the answer is fully supported by the provided evidence.
+
+Question:
+{question}
+
+Evidence:
+{evidence}
+
+Answer:
+{answer}
+
+Is the answer fully supported by the evidence?
+Return YES or NO.

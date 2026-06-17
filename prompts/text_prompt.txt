@@ -1,0 +1,11 @@
+# Text QA Solver Prompt
+Use ONLY the provided evidence to answer the question.
+Do NOT use any external knowledge.
+
+Question:
+{question}
+
+Evidence:
+{evidence}
+
+Answer:

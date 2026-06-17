@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Outputs
+outputs/
+
+# Data (keep the .zip, exclude extracted dir if needed)
+# contest_data/
+
+# OS
+.DS_Store
+Thumbs.db

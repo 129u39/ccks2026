@@ -1,0 +1,15 @@
+# KG Solver Prompt
+Based on the knowledge graph triples below, answer the question.
+
+Question:
+{question}
+
+Knowledge Graph Evidence:
+{evidence}
+
+Instructions:
+1. Only use the evidence provided above.
+2. Trace the path from the entities mentioned in the question through the relations.
+3. Output ONLY the final answer, nothing else.
+
+Answer:

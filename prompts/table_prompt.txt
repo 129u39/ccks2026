@@ -1,0 +1,10 @@
+# Table QA Solver Prompt
+Answer the question based on the table below.
+
+Question:
+{question}
+
+Table:
+{table}
+
+Answer:
